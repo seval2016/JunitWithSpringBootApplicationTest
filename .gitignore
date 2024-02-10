@@ -1,33 +1,192 @@
-HELP.md
+# Maven
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Gradle
+build/
+.gradle/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# IntelliJ
+.idea/
 *.iml
+*.iws
 *.ipr
 
-### NetBeans ###
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Visual Studio Code
+.vscode/
+
+# Logs
+log/
+logs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Compiled class file
+*.class
+
+# Compiled JAR file
+*.jar
+
+# Compiled WAR file
+*.war
+
+# Compiled EAR file
+*.ear
+
+# Compiled TAR file
+*.tar.gz
+
+# Compiled ZIP file
+*.zip
+
+# Compiled RAR file
+*.rar
+
+# Compiled 7z file
+*.7z
+
+# Compiled tar.bz2 file
+*.tar.bz2
+
+# Compiled tar.xz file
+*.tar.xz
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# Gradle Wrapper
+gradle-wrapper.jar
+
+# Spring Boot
+target/
+!target/application.jar
+
+# Javadoc
+/target/apidocs/
+
+# Test Files
+test-output/
+
+# Map files for Subversion
+.svn/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.tar.bz2
+*.tar.xz
+
+# File-based key stores
+*.jks
+
+# IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+*.suo
+*.user
+*.webprefs/
+/build/
+/bin/
+/evermind-rt.jar
+/lib/
+/fnbproject/
 
-### VS Code ###
+# Eclipse
+/.classpath
+/.project
+/.settings/
+/.metadata/
+/.plugins/
+
+# JDeveloper
+/.jdeveloper/
+/.jdev/
+*.jws
+*.class
+*.jar
+
+# BlueJ
+/bluej.files/
+
+# JAR files
+*.jar
+*.ear
+*.war
+
+# Gradle
+.gradle/
+/build/
+
+# Flyway
+flyway-repair.sql
+
+# Neo4j
+/data/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
 .vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# JetBrains
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file share
